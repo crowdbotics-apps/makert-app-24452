@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'makert_app_24452.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "makert_app_24452.settings")
 
 application = get_wsgi_application()
